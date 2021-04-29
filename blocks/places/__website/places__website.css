@@ -1,0 +1,12 @@
+.places__website {
+  grid-area: website;
+  align-self: end;
+  
+}
+
+@media screen and (max-width: 767px) {
+  .places__website {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

@@ -5,14 +5,22 @@
   justify-content: space-between;
   padding-bottom: 24px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
 .footer {
   margin-top: 88px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  }
+
+@media screen and (max-width: 767px) {
 .footer {
   margin-top: 64px;
   padding-left: 16px;

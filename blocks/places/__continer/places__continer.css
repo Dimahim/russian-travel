@@ -1,8 +1,0 @@
-.places__continer{
-  grid-area: paragraph;
-}
-@media screen and (max-width: 720px) {
-  .places__continer {
-    padding: 0px;
-  }
-}

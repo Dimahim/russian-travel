@@ -9,9 +9,10 @@
 
 @media screen and (max-width: 768px){
   .intro__title {
+    font-size: 32px;
+    line-height: 1.09;
     max-width: 720px;
-    padding-left: 24px;
-    padding-right: 24px;
+    
   }
 }
 @media screen and (max-width: 709px){
@@ -19,13 +20,6 @@
     max-width: 690px;
     font-size: 32px;
     line-height: 1.09;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-@media screen and (max-width: 320px){
-  .intro__title  {
-    padding-left: 16px;
-    padding-right: 16px;
+    
   }
 }
