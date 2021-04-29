@@ -1,4 +1,4 @@
-.hrader__lang-link {
+.header__lang-link {
   max-width: 30px;
   color: #FFFFFF;
   margin-right:  18px;
@@ -6,22 +6,22 @@
   line-height: 1.17;
   cursor: pointer;
 }
-.hrader__lang-link:last-child {
+.header__lang-link:last-child {
   margin-right: 0;
 }
 
-.hrader__lang-link:hover {
+.header__lang-link:hover {
   transition: opacity 300ms ease-in-out;
   opacity: 0.8;
 }
 
 @media screen and (max-width: 768px){
-  .hrader__lang-link {
+  .header__lang-link {
     max-width: 30px;
   }
 }
 @media screen and (max-width: 560px){
-  .hrader__lang-link {
+  .header__lang-link {
     max-width: 22px;
     margin-right: 14px;
     font-size: 18px;
