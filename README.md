@@ -4,5 +4,5 @@
 * #### Flex 
 * #### Grid
 * #### Резиновая и адаптивная верстка
-### (https://dimahim.github.io/russian-travel/)
+### (https://dimahim.github.io/russian-travel/).
 
