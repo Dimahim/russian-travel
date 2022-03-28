@@ -1,0 +1,11 @@
+.photo-grid__button {
+  background-image: url(../../../images/card-btn-delete.svg);
+  background-color: rgba(0,0,0,0);
+  background-repeat: no-repeat;
+  border: none;
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

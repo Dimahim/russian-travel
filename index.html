@@ -22,7 +22,7 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" src="images/lead-polka.jpg" alt="Каритнка верхняя полка">
+        <img class="lead__image page__image" src="images/lead-polka.jpg" alt="Каритнка верхняя полка">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
 
@@ -38,27 +38,75 @@
             <li class="intro__list-text">Аэропортов <span class="intro__number">241</span></li>
           </ul>
         </article>
+        <button type="button" class="intro__button" aria-label="Добавить картинку">Добавить картинку</button>
       </section>
     
       <section class="photo-grid">
-        <a class="photo-grit__link" data-lightbox="test" href="./images/photo-grid-train.jpg"><img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="поезд"></a>
-        <a class="photo-grit__link" data-lightbox="test" href="./images/photo-grid-atharva-tulsi.jpg"><img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="горы"></a>
-        <a class="photo-grit__link" data-lightbox="test" href="./images/photo-grid-tuman.jpg"><img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="поле"></a>
-        <a class="photo-grit__link" data-lightbox="test" href="./images/photo-grid-sochi.jpg"><img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="туман"></a>
-        <a class="photo-grit__link" data-lightbox="test" href="./images/photo-grid-arisa.jpg"><img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="лед"></a>
-        <a class="photo-grit__link" data-lightbox="test" href="./images/__item.jpg"><img class="photo-grid__item" src="./images/__item.jpg" alt="байкал"></a>
-        <a class="photo-grit__link" data-lightbox="test" href="./images/photo-grid-elbrus.jpg"><img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="снежные шапки на горах"></a>
-        <a class="photo-grit__link" data-lightbox="test" href="./images/photo-grid-kondratiev.jpg"><img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="волнорезы"></a>
-        <a class="photo-grit__link" data-lightbox="test" href="./images/photo-grid-kamchatka-1.jpg"><img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="туман в горах"></a>
-        <a class="photo-grit__link" data-lightbox="test" href="./images/photo-grid-kamchatka-2.jpg"><img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="поле  и гора"></a>
-        <a class="photo-grit__link" data-lightbox="test" href="./images/photo-grid-baikal-2.jpg"><img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="пляж байкала"></a>
-        <a class="photo-grit__link" data-lightbox="test" href="./images/photo-grid-ergaki.jpg"><img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="горы в тумане"></a>
+        <div class ="photo-grid__containet photo-grid__qwer">
+          <img data-id='0' class="photo-grid__item page__image" src="./images/photo-grid-train.jpg" alt="поезд">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
+
+        <div class ="photo-grid__containet">
+          <img data-id="1" class="photo-grid__item page__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="горы">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
+
+        <div class ="photo-grid__containet">
+          <img data-id="2" class="photo-grid__item page__image" src="./images/photo-grid-tuman.jpg" alt="поле">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
+
+        <div class ="photo-grid__containet">
+          <img data-id="3" class="photo-grid__item page__image" src="./images/photo-grid-sochi.jpg" alt="туман">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
+
+        <div class ="photo-grid__containet">
+          <img data-id="4" class="photo-grid__item page__image" src="./images/photo-grid-arisa.jpg" alt="лед">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
+
+        <div class ="photo-grid__containet">
+          <img data-id="5" class="photo-grid__item page__image" src="./images/__item.jpg" alt="байкал">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
+
+        <div class ="photo-grid__containet">
+          <img data-id="6" class="photo-grid__item page__image" src="./images/photo-grid-elbrus.jpg" alt="снежные шапки на горах">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
+
+        <div class ="photo-grid__containet">
+          <img data-id="7" class="photo-grid__item page__image" src="./images/photo-grid-kondratiev.jpg" alt="волнорезы">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
+
+        <div class ="photo-grid__containet">
+          <img data-id="8" class="photo-grid__item page__image" src="./images/photo-grid-kamchatka-1.jpg" alt="туман в горах">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
+
+        <div class ="photo-grid__containet">
+          <img data-id="9" class="photo-grid__item page__image" src="./images/photo-grid-kamchatka-2.jpg" alt="поле  и гора">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
+
+        <div class ="photo-grid__containet">
+          <img data-id="10" class="photo-grid__item page__image" src="./images/photo-grid-baikal-2.jpg" alt="пляж байкала">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
+
+        <div class ="photo-grid__containet">
+          <img data-id="11" class="photo-grid__item page__image" src="./images/photo-grid-ergaki.jpg" alt="горы в тумане">
+          <button type="button" class="photo-grid__button" aria-label="Удалить"></button>
+        </div>
       </section>
 
       <section class="places">
         <div class="places__place ">
           <h2 class="places__title">Куршская коса</h2>
-          <img class="places__image" src="./images/place-kosa.jpg" alt="Куршская коса">
+          <img class="places__image page__image" src="./images/place-kosa.jpg" alt="Куршская коса">
           <div class="places__website">
             <p class="places__url-heading">URL</p>
             <a class="places__link" href="http://park-kosa.ru">park-kosa.ru</a>
@@ -71,7 +119,7 @@
 
         <div class="places__place">
           <h2 class="places__title">Кольский</h2>
-          <img class="places__image" src="./images/place-kolsky.jpg" alt="Кольский">
+          <img class="places__image page__image" src="./images/place-kolsky.jpg" alt="Кольский">
           <div class="places__website">
             <p class="places__url-heading">URL</p>
             <a class="places__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
@@ -86,7 +134,7 @@
 
         <div class="places__place">
           <h2 class="places__title">Алтай</h2>
-          <img class="places__image" src="./images/place-altai.jpg" alt="Куршская коса">
+          <img class="places__image page__image" src="./images/place-altai.jpg" alt="Куршская коса">
           <div class="places__website">
             <p class="places__url-heading">URL</p>
             <a class="places__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
@@ -100,7 +148,7 @@
 
         <div class="places__place">
           <h2 class="places__title">Зимний Байкал</h2>
-          <img class="places__image" src="./images/place-winter-baikal.jpg" alt="Куршская коса">
+          <img class="places__image page__image" src="./images/place-winter-baikal.jpg" alt="Куршская коса">
           <div class="places__website">
             <p class="places__url-heading">URL</p>
             <a class="places__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
@@ -115,7 +163,7 @@
 
         <div class="places__place">
           <h2 class="places__title">Карелия</h2>
-          <img class="places__image" src="./images/place-karelia.jpg" alt="Куршская коса">
+          <img class="places__image page__image" src="./images/place-karelia.jpg" alt="Куршская коса">
           <div class="places__website">
             <p class="places__url-heading">URL</p>
             <a class="places__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
@@ -148,6 +196,33 @@
       <p class="footer__copyright">&#169; 2021. Дмитрий Алхимов</p>
     </footer>
   </div>
-  <script src="./dist/js/lightbox-plus-jquery.js"></script>
+<!-- Попап просмотра фотографий -->
+  <div class="popup popup__show_image">
+    <div class="popup__container-all">
+      <button type="button" class="popup__button popup__button_close_icon" aria-label="закрыть"></button>
+      <div class="popup__container">
+        <img data-id="" class="popup__image" src ="" alt="">
+        <button type="button" class="popup__button-slider popup__button-slider_left popup__button-slider_place_left" aria-label="лево"></button>
+        <button type="button" class="popup__button-slider popup__button-slider_right popup__button-slider_place_right" aria-label="право"></button>  
+      </div>
+    </div>
+  </div>
+
+  <!-- Попап добавления  фотографий -->
+  <div class="popup popup_container_cards">
+    <div class="popup__container_cards">
+      <h2 class="popup__title">Новое фото</h2>
+      <button type="button" class="popup__button popup__button_close_icon" aria-label="закрыть"></button>
+      <form class="popup__form form popup__form_add_cards" name="add-place" novalidate>
+        <input type="text" name="title" id="title" class="form__field form__field_item_title" placeholder="Название" maxlength="30" minlength="2" required>
+        <span class="form__field-error " id="title-error">Ошибка</span>
+        <input type="url" name="link" id="link" class="form__field form__field_item_link" placeholder="Ссылка на картинку"  required>
+        <span class="form__field-error " id="link-error">Ошибка</span>
+        <button class="form__button form__button_add_cards form__button_submit_active"  type="submit" aria-label="Сохранить">Создать</button>
+      </form> 
+    </div>
+  </div>
+
+  <script src="./scripts/script.js"></script>
 </body>
 </html>

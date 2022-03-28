@@ -1,0 +1,9 @@
+.popup__container {
+  max-width: 70vw;
+  max-height: 75vh;
+  border: 2px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
