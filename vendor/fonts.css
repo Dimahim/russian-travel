@@ -4,7 +4,7 @@
   font-weight: 100;
   font-display: swap;
   src: url(./fonts/Inter-Thin.woff2) format("woff2"),
-       url(./fonts/Inter-Thin.woff) format("woff");
+      url(./fonts/Inter-Thin.woff) format("woff");
 }
 @font-face {
   font-family: 'Inter';

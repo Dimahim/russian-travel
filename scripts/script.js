@@ -6,7 +6,7 @@ const imagePopupElement = document.querySelector('.popup__image');
 const elementImages = document.querySelectorAll('.page__image');
 const elementButton = document.querySelectorAll('.photo-grid__button');
 
-// Переменные для попапа добавления карточек
+// Переменные для попапа добавления карточек.
 
 const buttonOpenePopup = document.querySelector('.intro__button');
 const popupAddCards = document.querySelector('.popup_container_cards'); 
