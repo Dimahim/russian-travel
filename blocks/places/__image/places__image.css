@@ -2,6 +2,13 @@
   grid-area: image;
   max-width: 460px;
   width: 100%;
+  
+}
+.places__image:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 5px rgba(179, 179, 179, .4);
+  transform: scale( 1.08);
+  transition: transform 300ms;
 }
 
 @media screen and (max-width: 1279px) {
